@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="open">
+      <div class="layer"></div>
+      <div class="layer"></div>
+    </div>
+    <section>
+      <div class="header">
+        <h2 class="logo">Chetan Banchhod</h2>
+        <i class="fa fa-bars x2" onclick="menuToggle()"></i>
+        <ul id="navigation">
+          <li>
+            <a href="#" class="active">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Our Work</a>
+          </li>
+          <li>
+            <a href="#">Portfolio</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <i class="fa fa-times x2" onclick="menuToggle()"></i>
+        </ul>
+      </div>
+      <div class="bannerText">
+        <h2>THink Creative</h2>
+        <h3>And Make Innovative Designs</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          earum sequi numquam neque ex magni! Velit optio aliquam itaque
+          explicabo cum atque amet consectetur culpa, nemo, recusandae, et
+          expedita repellat!
+        </p>
+        <a href="#" class="readMore">Read More</a>
+      </div>
+      <img src="./light.png" class="bulb" />
+      <ul class="sci">
+        <li>
+          <a href="#"> <i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa fa-instagram"></i></a>
+        </li>
+      </ul>
+      <div class="element1"></div>
+      <div class="element2"></div>
+    </section>
+    <script>
+      function menuToggle() {
+        var element = document.getElementById("navigation");
+        element.classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>
